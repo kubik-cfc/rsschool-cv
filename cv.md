@@ -12,3 +12,13 @@ For the purpose indicated above, I need to master this course and improve my Eng
 
 **Work experience**
 8 years as a lawyer.
+**Skills**
+The legal profession taught to make decisions responsibly and to read carefully.
+Last mounth allowed me to master HTML, CSS, GIT and JS basics.
+
+**Education**
+1. BSU Law college. 
+2. Law faculty of BSU.
+3. HTML and CSS courses on (https://netology.ru/)
+4. English courses. Level B1.
+5. Teaching English with a tutor till currently.
