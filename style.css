@@ -2,14 +2,17 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   color: #444;
   font-family: "Inter", sans-serif;
-
   width: 70%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
 }
 
 .block-1 {
@@ -19,6 +22,7 @@ body {
   border: solid 2px #ea7070;
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
 }
+
 .block-2 {
   background-color: hwb(0 98% 0%);
   width: 50%;
@@ -64,12 +68,12 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+
 h2 {
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
 h3 {
@@ -83,6 +87,18 @@ h3 {
 ul {
   margin-left: 30px;
   margin-bottom: 30px;
+  font-size: large;
+}
+
+p {
+  margin-bottom: 20px;
+  margin-left: 7px;
+  margin-right: 7px;
+  text-align: justify;
+  line-height: 1.3;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: large;
 }
 
 footer {
@@ -90,16 +106,18 @@ footer {
   border-radius: 12px;
   border: solid 2px #ea7070;
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  align-items: center;
 }
 
-nav {
-  text-align: center;
+footer p {
+  color: #ea7070;
+  padding-top: 19px;
 }
 
-p {
-  margin-bottom: 20px;
-  text-align: justify;
-  line-height: 1.3;
-  padding-left: 5px;
-  padding-right: 5px;
+.rss-logo {
+  width: 10%;
+  padding-right: 20px;
 }
